@@ -1,0 +1,51 @@
+.Page-Componentes2{
+    width: 100%;
+    height: 100vh;
+    border: solid red 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Componente-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 14px 1px #ADADAD40;
+    width: 25%;
+    height: 30%;
+    h1{
+        color: #646464;
+        font-weight: 500;
+    }
+    p{
+        color: #888888;
+    }
+    .Comp2-Div1{
+        display: flex;
+        width: 100%;
+        img{
+            padding: 1em;
+        }
+    }
+    .Comp2-Div-Text{
+        display: flex;
+        width: 15vw;
+        h1{
+            font-size: 1.2em;
+        }
+        p{
+            margin-left: 1em;
+        }
+    }
+    button{
+        background: #0084FF;
+        border: none;
+        border-radius: .2em;
+        color: #fff;
+        font-size: 1em;
+        font-weight: 500;
+        padding: .5em 1em;
+        margin-right: 7.5vw;
+    }
+}
